@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        height: 95%;
+        color: #fff;
+        background: linear-gradient(90deg, #220000 0%, #000022 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+      }
+      h1 {
+        font: 60px normal;
+        animation: disco3000 8s ease infinite normal;
+        opacity: 0;
+      }
+      a {
+        background: -webkit-linear-gradient(left, #7162ef, #1bd3df, #954be1);
+        background-size: 1600px;
+        animation: disco3000 8s linear infinite alternate;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        background-size: 100px;
+      }
+      @keyframes disco3000 {
+        100% {
+          background-position: 1600px;
+          opacity: 1;
+        }
+      }
+    </style>
+    <title>Cyba</title>
+  </head>
+  <body>
+    <h3>Wir kennen den Weg</h3>
+    <h1>Unsere<a href="index.html"> Seite </a>kommt bald</h1>
+    <a href="https://cyba.ga/ba">© 2023 Cyba - from Berlin with Love</a>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+body {
+  height: 95%;
+  color: #660066;
+  background: transparent url("cysunrise.jpg") no-repeat scroll center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+h1 {
+  font: 60px normal;
+  animation: disco3000 8s ease infinite normal;
+  opacity: 0;
+}
+a {
+  background: -webkit-linear-gradient(left, #7162ef, #1bd3df, #954be1);
+  background-size: 1600px;
+  animation: disco3000 8s linear infinite alternate;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  background-size: 100px;
+}
+@keyframes disco3000 {
+  100% {
+    background-position: 1600px;
+    opacity: 1;
+  }
+}

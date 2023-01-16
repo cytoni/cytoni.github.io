@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background-color: #f9f9f9;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .background {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+    </style>
+
+    <title>Cyba</title>
+  </head>
+  <body>
+    <canvas class="background"></canvas>
+    <h3>Wir kennen den Weg</h3>
+    <h1>Unsere<a href="index.html"> Seite </a>kommt bald</h1>
+    <a href="https://cyba.ga/ba">© 2023 Cyba - from Berlin with Love</a>
+
+    <script>
+      var particles = Particles.init({
+        selector: ".background",
+        color: ["#DA0463", "#404B69", "#DBEDF3"],
+        connectParticles: true,
+      });
+    </script>
+  </body>
+</html>
